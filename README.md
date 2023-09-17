@@ -1,6 +1,4 @@
-# Algorithmic-Trading
-
-## University of Edinburgh - Undergraduate Research Assistantship Scheme (UGRA) - Project 8 (Dr. Tiancheng Sun): The Relationship Between Technical Trading Strategies and Derivatives
+## University of Edinburgh - Undergraduate Research Assistantship Scheme (UGRA) with Dr. Tiancheng Sun: The Relationship Between Technical Trading Strategies and Derivatives
 
 This past summer, I had the opportunity to assist Dr. Tiancheng Sun with his research on technical trading strategies within the context of a DSGE model. I simulated one such strategy, the Turtle Trading System, a legendary risk-adaptive, trend-following strategy from the 1980's, in Python using prices modelled by Geometric Brownian Motion (GBM) and conditional heteroskedasticity (GARCH) to better understand the drivers of its performance.
 
