@@ -1,4 +1,4 @@
-## University of Edinburgh - Undergraduate Research Assistantship Scheme (UGRA) with Dr. Tiancheng Sun: Simulating the Turtle Trading System
+# University of Edinburgh - Undergraduate Research Assistantship Scheme (UGRA) with Dr. Tiancheng Sun: Simulating the Turtle Trading System
 
 This past summer, I had the opportunity to assist __Dr. Tiancheng Sun__ with his research on technical trading strategies in structural economic models. I simulated one such strategy, the "Turtle Trading System", a legendary risk-adaptive, trend-following strategy from the 1980's, in Python to better understand the drivers of its performance. In the simulations, I unleashed the Turtle Trading System on prices modelled by Geometric Brownian Motion (GBM) and conditional heteroskedasticity (GARCH). I analyzed its behaviours from a deterministic and stochastic perspective, concluding with suggestions for improving its risk-reward profile. 
 
