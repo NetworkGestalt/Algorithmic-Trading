@@ -3,16 +3,15 @@
 In the summer of 2023, I had the opportunity to assist [Dr. Tiancheng Sun](https://sites.google.com/view/tianchengsun) with his research on technical trading strategies in structural economic models. I simulated one such strategy, the "Turtle Trading System", a legendary risk-adaptive, trend-following strategy from the 1980's, in Python to better understand the drivers of its performance. In the simulations, I unleashed the Turtle Trading System on prices modelled by Geometric Brownian Motion (GBM) and conditional heteroskedasticity (GARCH). I analyzed its behaviours from deterministic and stochastic perspectives, concluding with suggestions for improving its risk-reward profile. 
 
 # Contents:
-The two notebooks in this repository contain the Python code of the simulation and statistical analysis of the Turtle Trading System:
-- "__The Turtle Strategy (full)__" simulates and analyzes the original Turtle Trading System (https://www.tradingwithrayner.com/wp-content/uploads/2014/11/OriginalTurtleRules.pdf).
-    1. Definition of Turtle Trading System rules (System 1 and System 2)
-    2. Simulation of TTS with Geometric Brownian Motion (GBM).
-    3. Monte Carlo analysis of System 1 and System 2 (GBM).
-    4. Simulation of TTS with GBM and Conditional Volatility (GARCH).
-    5. Monte Carlo of System 1 and System 2.
-    6. Improving the Turtle Trading System's Return/Max Drawdown.
+- "__Turtle Trading System (full)__" simulates the [original](https://www.tradingwithrayner.com/wp-content/uploads/2014/11/OriginalTurtleRules.pdf) Turtle Trading System in a more complex price environment.
+    1. Definition of Turtle Trading System (TTS) rules: System 1 and System 2
+    2. Simulation of TTS with prices modelled by Geometric Brownian Motion (GBM)
+    3. Monte Carlo simulation of System 1 and System 2 with GBM prices
+    4. Simulation of TTS with GBM prices and conditional heteroscedasticity (GARCH)
+    5. Monte Carlo simulation of System 1 and System 2 with GBM + GARCH prices
+    6. Improving the TTS risk-return profile: Return(%)/MaxDrawdown
 
-- "__The Turtle Strategy (simplified)__" simulates and analyzes a simplified version of the original Turtle Trading System that emphasizes its trend-following behaviours.
-    1.  Definition of simplified Turtle Trading System rules.
-    2.  Simulation of simplified TTS with GBM.
-    3.  Monte Carlo and LAD Regression analysis of simplified TTS (GBM).
+- "__Turtle Trading System (simplified)__" simulates a simplified version of the original Turtle Trading System, focusing on its trend-following rules.
+    1.  Definition of simplified Turtle Trading System (sTTS) rules
+    2.  Simulation of sTTS with prices modelled by Geometric Brownian Motion (GBM)
+    3.  Monte Carlo simulation and LAD regression analysis of sTTS with GBM prices
